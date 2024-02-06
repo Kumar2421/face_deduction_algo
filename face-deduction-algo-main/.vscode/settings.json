@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "face_detection_model"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./face_detection_model",
+        "-p",
+        "*_test.py"
+    ]
+}
